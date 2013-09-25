@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9B51513917F39AE50062381C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B51513817F39AE50062381C /* UIKit.framework */; };
+		9B51513B17F39AE50062381C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B51513A17F39AE50062381C /* Foundation.framework */; };
+		9B51513D17F39AE50062381C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B51513C17F39AE50062381C /* CoreGraphics.framework */; };
+		9B51514317F39AE50062381C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9B51514117F39AE50062381C /* InfoPlist.strings */; };
+		9B51514517F39AE50062381C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B51514417F39AE50062381C /* main.m */; };
+		9B51514917F39AE50062381C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B51514817F39AE50062381C /* AppDelegate.m */; };
+		9B51514C17F39AE50062381C /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B51514A17F39AE50062381C /* MainStoryboard_iPhone.storyboard */; };
+		9B51514F17F39AE50062381C /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B51514D17F39AE50062381C /* MainStoryboard_iPad.storyboard */; };
+		9B51515217F39AE50062381C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B51515117F39AE50062381C /* ViewController.m */; };
+		9B51515A17F39AE60062381C /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B51515917F39AE60062381C /* SenTestingKit.framework */; };
+		9B51515B17F39AE60062381C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B51513817F39AE50062381C /* UIKit.framework */; };
+		9B51515C17F39AE60062381C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B51513A17F39AE50062381C /* Foundation.framework */; };
+		9B51516417F39AE60062381C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9B51516217F39AE60062381C /* InfoPlist.strings */; };
+		9B51516717F39AE60062381C /* CollegeToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B51516617F39AE60062381C /* CollegeToolTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9B51515D17F39AE60062381C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B51512B17F39AE50062381C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B51513317F39AE50062381C;
+			remoteInfo = CollegeTool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9B51513417F39AE50062381C /* CollegeTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollegeTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B51513817F39AE50062381C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9B51513A17F39AE50062381C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9B51513C17F39AE50062381C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9B51514017F39AE50062381C /* CollegeTool-Info.plist */ = {isa = PBXFileReference; path = "CollegeTool-Info.plist"; sourceTree = "<group>"; };
+		9B51514217F39AE50062381C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9B51514417F39AE50062381C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9B51514617F39AE50062381C /* CollegeTool-Prefix.pch */ = {isa = PBXFileReference; path = "CollegeTool-Prefix.pch"; sourceTree = "<group>"; };
+		9B51514717F39AE50062381C /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		9B51514817F39AE50062381C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9B51514B17F39AE50062381C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		9B51514E17F39AE50062381C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		9B51515017F39AE50062381C /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		9B51515117F39AE50062381C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9B51515817F39AE50062381C /* CollegeToolTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CollegeToolTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B51515917F39AE60062381C /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		9B51516117F39AE60062381C /* CollegeToolTests-Info.plist */ = {isa = PBXFileReference; path = "CollegeToolTests-Info.plist"; sourceTree = "<group>"; };
+		9B51516317F39AE60062381C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9B51516517F39AE60062381C /* CollegeToolTests.h */ = {isa = PBXFileReference; path = CollegeToolTests.h; sourceTree = "<group>"; };
+		9B51516617F39AE60062381C /* CollegeToolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollegeToolTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B51513117F39AE50062381C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B51513917F39AE50062381C /* UIKit.framework in Frameworks */,
+				9B51513B17F39AE50062381C /* Foundation.framework in Frameworks */,
+				9B51513D17F39AE50062381C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B51515417F39AE50062381C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B51515A17F39AE60062381C /* SenTestingKit.framework in Frameworks */,
+				9B51515B17F39AE60062381C /* UIKit.framework in Frameworks */,
+				9B51515C17F39AE60062381C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9B51512917F39AE50062381C = {
+			isa = PBXGroup;
+			children = (
+				9B51513E17F39AE50062381C /* CollegeTool */,
+				9B51515F17F39AE60062381C /* CollegeToolTests */,
+				9B51513717F39AE50062381C /* Frameworks */,
+				9B51513517F39AE50062381C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9B51513517F39AE50062381C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B51513417F39AE50062381C /* CollegeTool.app */,
+				9B51515817F39AE50062381C /* CollegeToolTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B51513717F39AE50062381C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B51513817F39AE50062381C /* UIKit.framework */,
+				9B51513A17F39AE50062381C /* Foundation.framework */,
+				9B51513C17F39AE50062381C /* CoreGraphics.framework */,
+				9B51515917F39AE60062381C /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9B51513E17F39AE50062381C /* CollegeTool */ = {
+			isa = PBXGroup;
+			children = (
+				9B51514717F39AE50062381C /* AppDelegate.h */,
+				9B51514817F39AE50062381C /* AppDelegate.m */,
+				9B51514A17F39AE50062381C /* MainStoryboard_iPhone.storyboard */,
+				9B51514D17F39AE50062381C /* MainStoryboard_iPad.storyboard */,
+				9B51515017F39AE50062381C /* ViewController.h */,
+				9B51515117F39AE50062381C /* ViewController.m */,
+				9B51513F17F39AE50062381C /* Supporting Files */,
+			);
+			path = CollegeTool;
+			sourceTree = "<group>";
+		};
+		9B51513F17F39AE50062381C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9B51514017F39AE50062381C /* CollegeTool-Info.plist */,
+				9B51514117F39AE50062381C /* InfoPlist.strings */,
+				9B51514417F39AE50062381C /* main.m */,
+				9B51514617F39AE50062381C /* CollegeTool-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9B51515F17F39AE60062381C /* CollegeToolTests */ = {
+			isa = PBXGroup;
+			children = (
+				9B51516517F39AE60062381C /* CollegeToolTests.h */,
+				9B51516617F39AE60062381C /* CollegeToolTests.m */,
+				9B51516017F39AE60062381C /* Supporting Files */,
+			);
+			path = CollegeToolTests;
+			sourceTree = "<group>";
+		};
+		9B51516017F39AE60062381C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9B51516117F39AE60062381C /* CollegeToolTests-Info.plist */,
+				9B51516217F39AE60062381C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9B51513317F39AE50062381C /* CollegeTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B51516A17F39AE60062381C /* Build configuration list for PBXNativeTarget "CollegeTool" */;
+			buildPhases = (
+				9B51513017F39AE50062381C /* Sources */,
+				9B51513117F39AE50062381C /* Frameworks */,
+				9B51513217F39AE50062381C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CollegeTool;
+			productName = CollegeTool;
+			productReference = 9B51513417F39AE50062381C /* CollegeTool.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9B51515717F39AE50062381C /* CollegeToolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B51516D17F39AE60062381C /* Build configuration list for PBXNativeTarget "CollegeToolTests" */;
+			buildPhases = (
+				9B51515317F39AE50062381C /* Sources */,
+				9B51515417F39AE50062381C /* Frameworks */,
+				9B51515517F39AE50062381C /* Resources */,
+				9B51515617F39AE50062381C /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B51515E17F39AE60062381C /* PBXTargetDependency */,
+			);
+			name = CollegeToolTests;
+			productName = CollegeToolTests;
+			productReference = 9B51515817F39AE50062381C /* CollegeToolTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B51512B17F39AE50062381C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 9B51512E17F39AE50062381C /* Build configuration list for PBXProject "CollegeTool" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9B51512917F39AE50062381C;
+			productRefGroup = 9B51513517F39AE50062381C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B51513317F39AE50062381C /* CollegeTool */,
+				9B51515717F39AE50062381C /* CollegeToolTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9B51513217F39AE50062381C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B51514317F39AE50062381C /* InfoPlist.strings in Resources */,
+				9B51514C17F39AE50062381C /* MainStoryboard_iPhone.storyboard in Resources */,
+				9B51514F17F39AE50062381C /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B51515517F39AE50062381C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B51516417F39AE60062381C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9B51515617F39AE50062381C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B51513017F39AE50062381C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B51514517F39AE50062381C /* main.m in Sources */,
+				9B51514917F39AE50062381C /* AppDelegate.m in Sources */,
+				9B51515217F39AE50062381C /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B51515317F39AE50062381C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B51516717F39AE60062381C /* CollegeToolTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9B51515E17F39AE60062381C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B51513317F39AE50062381C /* CollegeTool */;
+			targetProxy = 9B51515D17F39AE60062381C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9B51514117F39AE50062381C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B51514217F39AE50062381C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9B51514A17F39AE50062381C /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B51514B17F39AE50062381C /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		9B51514D17F39AE50062381C /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B51514E17F39AE50062381C /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		9B51516217F39AE60062381C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B51516317F39AE60062381C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9B51516817F39AE60062381C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9B51516917F39AE60062381C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B51516B17F39AE60062381C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CollegeTool/CollegeTool-Prefix.pch";
+				INFOPLIST_FILE = "CollegeTool/CollegeTool-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9B51516C17F39AE60062381C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CollegeTool/CollegeTool-Prefix.pch";
+				INFOPLIST_FILE = "CollegeTool/CollegeTool-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		9B51516E17F39AE60062381C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CollegeTool.app/CollegeTool";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CollegeTool/CollegeTool-Prefix.pch";
+				INFOPLIST_FILE = "CollegeToolTests/CollegeToolTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		9B51516F17F39AE60062381C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CollegeTool.app/CollegeTool";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CollegeTool/CollegeTool-Prefix.pch";
+				INFOPLIST_FILE = "CollegeToolTests/CollegeToolTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9B51512E17F39AE50062381C /* Build configuration list for PBXProject "CollegeTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B51516817F39AE60062381C /* Debug */,
+				9B51516917F39AE60062381C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B51516A17F39AE60062381C /* Build configuration list for PBXNativeTarget "CollegeTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B51516B17F39AE60062381C /* Debug */,
+				9B51516C17F39AE60062381C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9B51516D17F39AE60062381C /* Build configuration list for PBXNativeTarget "CollegeToolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B51516E17F39AE60062381C /* Debug */,
+				9B51516F17F39AE60062381C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9B51512B17F39AE50062381C /* Project object */;
+}
