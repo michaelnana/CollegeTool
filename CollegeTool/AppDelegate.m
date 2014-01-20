@@ -11,12 +11,62 @@
 @implementation AppDelegate
 
 @synthesize window = _window;
+@synthesize adder;
+@synthesize addNote;
+@synthesize remind;
+@synthesize altAddNote;
+@synthesize noters;
+
+
+-(ModelAddNote *)newModelAddNote{
+    if(!adder){
+        adder=[ModelAddNote new];
+    }
+    return adder;
+}
+
+-(ModelRemind *)newModelRemind{
+    if(!remind){
+        remind=[ModelRemind new];
+    }
+    return remind;
+}
+
+-(ModelNotes *)newModelNotes{
+    if(!noters){
+        noters=[ModelNotes new];
+    }
+    return noters;
+}
+
+-(ModelAdd *)newModelAdd{
+    if(!addNote){
+        addNote=[ModelAdd new];
+    }
+    return addNote;
+}
+
+-(ModelAdd *)altModelAdd{
+    if(!altAddNote){
+        altAddNote=[ModelAdd new];
+    }
+    return altAddNote;
+}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    [[UINavigationBar appearance]setTintColor:[UIColor colorWithRed:(79.0/255.0) green:(0.0/255.0) blue:(128.0/255.0) alpha:1.0]];//[UIColor purpleColor]];
+    //[[UITabBar appearance]setTintColor:[UIColor whiteColor]];
+    [self newModelAdd];
+    [self newModelRemind];
+    [self newModelNotes];
+    [self newModelAddNote];
+    [self altModelAdd];
+    
     return YES;
 }
+
 							
 - (void)applicationWillResignActive:(UIApplication *)application
 {
